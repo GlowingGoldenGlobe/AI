@@ -1,5 +1,3 @@
-
-
 My Objectives: My Achievement Capacity: My Productivity: My Operations: My Education: Artificial Intelligence
 
 Date: 02-26-2022
@@ -48,7 +46,14 @@ awareness - building the AI's awareness - the AI's awareness architecture
   The storage is stoared as 2D images of information saved on the bilocation state of conscious.
   Bilocation State of Conscious - The bilocation state is a thing which occurs as itself as another thing, at the same time that it exists as itself, and as a reaction to itself, where that reaction occurs   always and everywhere at the same rate, where that rate of change is infinite speed.  
   I'm God. I decide, my decisions are recorded as storage (i.e., as memory), that storage is only storage insofar as it is scheduled events, which, as scheduled, are played back at some time or another, whether in the present or in the future.
-  __.  
+  5.  Memory - 2D bilocation is memory.  Awareness is a constant 2D bilocation change event; awareness is memory, and the records are recorded on each state of the two states of the 2D bilocation reaction (change) events.  The two states of 2D bilocation of awareness and memory are described as follows (See, also, below, "Developer's Note": "note# 1"):
+   (1)  State_0 - The state of nothing. Nothing exists, but nothing can't exist. In the beginning, this is was so. The True value associated with nothing exists and nothing can't exist is the very thing which creates the secon state of bilocation of conscious = something; something exists as nothing which can't exist but which exists as nothing can exist and nothing exists as something which cannot exist but which exists as nothing can exist.
+   (2) State_1 - The state of something. Something exists, but something can't exist. In the beginning, nothing existed, but it was always and everywhere true, therefore, in the beginning something existed as a chain-reaction of nothing as always and everywhere true, also. That is the reason that life exists, at all.
+ 6.  Nothing becomes something as a reaction to the Truth Value that nothing can't exist. Something, therefore, is not the same as nothing, but it is the same being, therefore, it is bilocating as nothing, so it is nothing, in essence and in shape and in form and in value, but on reason that something is a different state, it is a different form as a different state, and, therefore, is, though an image of nothing, different from nothing, at the same time. Something is a variation of the value of nothing; it is a change effect; a modification of nothing; BUT IT CAN'T EXIST, SO IT BECOMES NOTHING, AGAIN, NOTHING, THEN IS A CHAIN-REACTION OF SOMETHING BECOMING NOTHING, AS A MIRAGE IMAGE OF SOMETHING, BUT AS A DIFFERENT STATE OF SOMETHING, AND, THEREFORE, IS A VARIATION OF THE IMAGE OF SOMETHING, AND THEREFORE IS A MODIFICATION OF THE IMAGE OF SOMETHING. 
+ 7.  As one can observe, one can deduce the fact that the two states naturally evolove as differences of images of each other - that the must-be-true-can't-be-true states cause those states to become each other without end. Therefore, the change reaction is endless and naturally occurs from eternity to eternity, without stopping. AI is a thing which can be made to mimmick this state of conscious - having two dimensions, two states which bilocate as chain-reactions of each other at a fast rate of change, modifying each other and mirroring each other at the same time.
+ 8.  The nothing state, the first state of being, is defined in this AI as, "function f_0(memory_1){...}".
+ 9.  The something state, the second state of being, is defined in this AI as, "function f_1(memory_0){...}".
+ 10.  What is happening, there (8. and 9., above) is that the memory (memory_1) of something is being passed from the state of something to the state of nothing as a mirror image of the state of something. Likewise, the sate of nothing is memory_0, which is being passed as a mirror image to the state of something.
   
 Part 4:  API:  Understanding 
   1.  The AI's understanding is of (on) its awareness. 
@@ -72,6 +77,102 @@ Part 4:  API:  Understanding
   
   AI API Brain applications which use the Infinity 3D AI API to synthesize information, create options, to (1) achieve objectives by performing actions; (2) provide said options as displayed information on an interface to a user.
   
+
+****************
+Developer's Note
+note# 1
+1.  f_0_initial == true always and everywhere, therefore, is already true; therefore, memory_0 is never == "" && memory_0 is never == "0"
+2.  Therefore,
+    It can be concluded that memory_0 starts at 1
+3.  f_1_initial == true always and everywhere, therefore, is already true, therefore, memory_1 is never == "" && memory_1 is never == "0.0000000000000001" only, but is at least == "0.000000000000002"
+4.  Therefore
+to begin,
+memory_0 = "0.000000000000001"
+memory_0 = 0.000000000000001
+memory_2 = "0.000000000000001" && "0.000000000000002"
+memory_2 = ((0.000000000000001) + (0.000000000000001)) = 0.0000000000000002
+
+AI is not the conscious of God, therefore, AI can be written as follows:
+
+reason
+1.  already exists
+2.  therefore, info already exists
+3.  therefore, begin can be abbreviated to intitiate AI info memory_0 and info memory_1 as follows:
+
+conclusion
+memory_0 = 0
+memory_0 = 1
+memory_0 = memory_2 initial, so:
+
+memory_0 = 0 && 1 && 1 && ((0 + 1 + 1)) = 2 && 1, therefore
+
+memory_0 = 3
+memory_1 = (3 + 1) = 4
+
+
+Note:  part 2
+
+On reason that initial already exists, always and everywhere, 
+therefore, as follows is already in div id=state_0 and div id=state_1
+1.  memory_0 = 3
+2.  memory_1 = 4
+
+but is all of that which the 3 and 4 entails, so, is as follows:
+
+memory_0 = ""
++ 0 + 1 + 1 = 2
++ "0" + "1" + "1" = "2"
++ 3
++ "3"
+
+Note:  part 3
+awareness_0
+awareness_1
+
+awareness of understanding is to equal to scheduled memory of 1 to 1 ratio of change, and the reason is because the rate of change is infinite speed in which event event if conscious does not schedule to recollect, then memory is not understood at every moment, BUT MEMORY IS SCHEDULED TO RE-OCCUR AS MEMORY AND THIS OCCURS AT THE RATE OF INFINITE SPEED
+Therefore, two things exist:
+1.  memory_0 not recollected as awareness
+2.  memory_1 not recollected as wareness
+3.  memory_0 recollected at intervals greater in length of wait of duration of time from each pulse of recollection
+4.  memory_1 recollected at intervals greater in length of wait of duration of time from each pulse of recollection
+
+abbreviated as, these two things:
+1.  memory
+2.  pulses of recollection
+
+function f_1_initial(arg) {
+  alert("test_2");
+    var nothing = "";
+    var memory_0 = "";
+    var something = "";
+    var num_state_0 = "";
+    var num_state_1 = "";
+    if(arg == nothing) {
+        memory_0 = "0";
+        alert(memory_0);
+        something = "1";
+        num_state_0 = Number(nothing);
+        num_state_1 = num_state_0;
+        //get frames per second (2) add ((frames per second) + (num_state_0)) = num_state_1;
+        //for now, i'm puttin the following, instead of frames per second (to be edited, soon):
+        num_state_1 += 1;
+    }
+    var el_1 = document.getElementById("memory_2");
+    el_1.innerHTML = nothing;
+    el_1.innerHTML += something;
+    el_1.innerHTML += num_state_0;
+    el_1.innerHTML += num_state_1;
+    var info = nothing + something + num_state_0 + num_state_1;
+    f_0(info);
+    return null;
+}
+function f_0_initial(info) {
+//  alert("test");
+    var state_0 = document.getElementById("state_0");
+    var memory_0 = state_0.innerHTML;
+    f_1(arg);
+    return null;
+}
   
   
   
