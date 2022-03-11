@@ -19,6 +19,7 @@ function search_function_1(query_word) {
   var el_embed = document.getElementById("embed_1");
   //el_embed.onload = el_embed.select();
   el_embed.src = url;
+  el_embed.select();
   document.execCommand("copy");
   el.select();
   document.execCommand("paste");
