@@ -4,11 +4,17 @@
 <body>
 <p id="p">---</p>
 <div>
-<script async src="https://cse.google.com/cse.js?cx=44871585f0d015dcd"></script>
-<div class="gcse-search" resultsUrl="https://glowinggoldenglobe.github.io/AI/index.html#results_1" ></div>
-<div id="results_1"></div>  
+  <input type="text" id="input_search_1" value="" placeholder="Search Dictionary Words" />
+  <input type="button" value="Search" onclick="search_function_1(input_search_1.value)" />
+  <p id="query_results_1"></p>
 </div>
 <script>
+  //https://www.merriam-webster.com/dictionary/some
+function search_function_1(query_word) {
+  var el = document.getElementById("query_results_1");
+  var url = "https://www.merriam-webster.com/dictionary/" + query_word;
+  window.open(url, location="#query_results_1");
+}
 //API
 alert("test");
 const something = {};
