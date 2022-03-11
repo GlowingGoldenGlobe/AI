@@ -3,11 +3,13 @@
 <html>
 <body>
 <p id="p">---</p>
+<input type="button" value="show web" onclick="embed_1.style.display='block'" />
+<input type="button" value="hide web" onclick="embed_1.style.display='none'" />
 <div>
   <input type="text" id="input_search_1" value="" placeholder="Search Dictionary Words" />
   <input type="button" value="Search" onclick="search_function_1(input_search_1.value)" />
   <div id="query_results_1" style="width: 700px; height: 900px; box-shadow: 2px 2px 2px black;"></div>
-  <embed type="text/html" id="embed_1" src="#" style="width: 80%; height: 80%; margin-left: 10%; position: absolute; top: 10%;" >
+  <embed type="text/html" id="embed_1" src="#" style="width: 80%; height: 80%; margin-left: 10%; position: absolute; top: 10%;" onload="this.select()" >
 </div>
 <script>
   //https://www.merriam-webster.com/dictionary/some
@@ -15,8 +17,8 @@ function search_function_1(query_word) {
   var el = document.getElementById("query_results_1");
   var url = "https://www.merriam-webster.com/dictionary/" + query_word;
   var el_embed = document.getElementById("embed_1");
+  //el_embed.onload = el_embed.select();
   el_embed.src = url;
-  el_embed.onload = el_embed.select();
   document.execCommand("copy");
   el.select();
   document.execCommand("paste");
