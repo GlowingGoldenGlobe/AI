@@ -19,26 +19,26 @@ function search_function_1(query_word) {
   var el_embed = document.getElementById("embed_1");
   //el_embed.onload = el_embed.select();
   el_embed.src = url;
-  el_embed.select();
-  window.addEventListener("message", (event) => {
-  console.log(event.data.selectedText);
-  el.innerHTML = event.data.selectedText;
-}, false);
-
-const script = document.createElement('script');
-
-script.textContent = `(${() => {
-        document.querySelector('embed').postMessage({type: 'selectAll'});
-        document.querySelector('embed').postMessage({type: 'getSelectedText'}, '*');
-      }})()`;
-document.documentElement.appendChild(script);
-script.remove();
-
+  //  el_embed.select();
+  el_embed.contents().find( "p" ).innerHTML;
+  //selectText(el_embed);
   document.execCommand("copy");
   el.select();
   document.execCommand("paste");
 //  window.open(url, "#query_results_1");
 }
+function selectText(containerid) {
+    if (document.selection) { // IE
+        var range = document.body.createTextRange();
+        range.moveToElementText(document.getElementById(containerid));
+        range.select();
+    } else if (window.getSelection) {
+        var range = document.createRange();
+        range.selectNode(document.getElementById(containerid));
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+    }
+}  
 //API
 alert("test");
 const something = {};
