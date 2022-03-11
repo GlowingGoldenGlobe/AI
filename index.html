@@ -6,14 +6,14 @@
 <div>
   <input type="text" id="input_search_1" value="" placeholder="Search Dictionary Words" />
   <input type="button" value="Search" onclick="search_function_1(input_search_1.value)" />
-  <p id="query_results_1"></p>
+  <div id="query_results_1" style="width: 700px; height: 900px; box-shadow: 2px 2px 2px black;"></div>
 </div>
 <script>
   //https://www.merriam-webster.com/dictionary/some
 function search_function_1(query_word) {
   var el = document.getElementById("query_results_1");
   var url = "https://www.merriam-webster.com/dictionary/" + query_word;
-  window.open(url, target="#query_results_1");
+  window.open(url, "#query_results_1");
 }
 //API
 alert("test");
